@@ -18,10 +18,8 @@ public class Main {
          SinhVien sv=null;
          if(Choice.equalsIgnoreCase("1")){
             sv=new SinhVienIT();
-            Array.add(sv);
          }else if(Choice.equalsIgnoreCase("2")){
             sv=new SinhVienKT();
-            Array.add(sv);
          }else{
             System.out.println("Choice Youself Wrong ! , Please Reat Choice");
             i--;
